@@ -1,0 +1,45 @@
+body {
+	background: antiquewhite;
+}
+
+#title {
+    font-size: 204%;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+    background: orange;
+    margin-bottom: 4%;
+    padding: 3%;
+}
+
+#container {
+	width: 39%;
+	margin-left: 30%;
+	border: 3px solid black;
+}
+
+#main_form {
+	text-align: center;
+}
+
+#main_form label {
+	text-align: center;
+    font-size: 118%;
+    font-weight: 600;
+}
+
+#result {
+	font-size: 111%;
+	background: #ee5a3a;
+	padding: 1%;
+	width: max-content;
+	margin-left: 32%;
+	margin-right: 30%;
+	margin-top: 3.5%;
+}
+
+#my_details {
+	text-align: center;
+	border-top: 2px solid black;
+	background: #3ad0ee;
+}
