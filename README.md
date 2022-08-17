@@ -4,5 +4,5 @@ To deploy app,
 2. Download the 'Python-flask-app' folder.
 3. Install the scikit learn library if you do not have using the command - pip install -U scikit-learn.
 4. Inside this folder, you will find app.py file. Run it. The server will start.
-5. now go to your browser, type 10.5.0.2/81 
+5. now go to your browser, and go to the local IP where server is running.
 The app will start. You can enter a message in the text box and click 'check'. App will tell if the message is spam or not.
