@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+<div id="container">
+  <div id="title">
+    MESSAGE SPAM CLASSIFIER APP
+  </div>
+<div id="main_form"> 
+<form action="/" method="post" enctype="multipart/form-data">
+
+  <label for="msg">ENTER YOUR TEXT MESSAGE BELOW</label><br>
+
+  <!--<input type="text" name="msg"><br> -->
+  <textarea id="message_textbox" rows="4" cols="50" name="msg"></textarea>
+  <br>
+  <input type="submit" value="CHECK">
+</form>
+<div id="result">
+<h3>{{message}}</h3>
+</div>
+</div>
+
+<div id="my_details">
+  <h2>Made By:Kapish Shewale</h2><br>
+  <div class="buttons">
+    <div class="gotowebsite">
+      <a href="www.kapishshewale.com"><button>Go To My Website</button></a>
+    </div>
+    <div class="gotoblog">
+      <a href="#"><button>Go to Project's Blog</button></a>
+    </div>
+  </div>
+</div>
+</body>
+</html> 
